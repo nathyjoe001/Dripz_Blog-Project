@@ -45,6 +45,9 @@ INSTALLED_APPS = [
     'comments',
     'users',  
 ]
+
+ALLOWED_HOSTS = ['nathyjoe.pythonanywhere.com']
+
 #configure django REST Framework
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
