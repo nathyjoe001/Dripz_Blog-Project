@@ -46,7 +46,7 @@ INSTALLED_APPS = [
     'users',  
 ]
 
-ALLOWED_HOSTS = ['nathyjoe.pythonanywhere.com']
+ALLOWED_HOSTS = []
 
 #configure django REST Framework
 REST_FRAMEWORK = {
